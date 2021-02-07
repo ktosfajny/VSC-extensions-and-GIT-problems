@@ -1,0 +1,72 @@
+{
+  "telemetry.enableTelemetry": false,
+  "telemetry.enableCrashReporter": false,
+  "editor.tabCompletion": "on",
+  "emmet.showSuggestionsAsSnippets": true,
+  "editor.wordWrap": "on",
+  "window.zoomLevel": 1,
+  "liveServer.settings.donotShowInfoMsg": true,
+  //SASS Live Compiler
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "/assets/css/"
+    }
+  ],
+  //SASS Live Compiler - Autoprefix
+  "liveSassCompile.settings.autoprefix": ["> 1%", "last 2 versions"],
+  "[html]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "[javascript]": {
+    // "editor.defaultFormatter": "vscode.typescript-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  //
+  //
+  // "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+  //
+  //
+  //-----bellow is the default terminal thing-----
+  "terminal.integrated.shell.windows": "D:\\Program Files\\Git\\bin\\bash.exe",
+  //
+  //
+  //------this text allows to use emmet in react, ex.: section+section and then TAB creates 2 sections
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  // "editor.formatOnSave": false,
+
+  "beautify.config": "",
+  "[scss]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.renameOnType": true,
+
+  "workbench.iconTheme": "material-icon-theme",
+  "git.ignoreWindowsGit27Warning": true,
+  "editor.tabSize": 2,
+  "explorer.compactFolders": false,
+  "workbench.colorTheme": "One Dark Pro",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "explorer.confirmDelete": false
+  //
+  //
+  //whenever you want to put here something, put it BEFORE the last bracket "}" that is below and use ","
+  
+  // "[javascriptreact]": {
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+
+}

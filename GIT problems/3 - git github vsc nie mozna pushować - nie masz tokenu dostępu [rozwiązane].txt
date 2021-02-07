@@ -1,0 +1,8 @@
+pushowa³em repo do jakiegoœ konta na githubie ale potem wylogowa³em siê z tego konta i zalogowa³em do innego (na githubie) i chcialem z tego samego kompa wrzuciæ
+repo na to inne konto. Niestety mój nie udaje siê to. trzeba w visualu od nowa zalogowaæ siê do tego nowego konta (chodzi  o to ¿e twój komuter nie dosta³ tokena 
+upowazniaj¹cego do wrzucania  rzeczy na to nowe konto)
+
+https://stackoverflow.com/questions/31351359/how-to-log-out-of-one-github-account-and-use-another-account
+
+wyszukaj "Note it's credential, not credentials."
+post który zawiera t¹ informacjê (ma 4 like) to jest ten który rozwi¹zuje problem
